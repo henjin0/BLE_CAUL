@@ -1,7 +1,7 @@
 # BLE_CAULについて
 2007年ぐらいに(株)タカラトミーから発売されたCAULと呼ばれるラジコンをBLE経由で操作できるようにするプログラムです。
 付属のBLE_CAUL.inoをM5StickCPlusに書き込めばそのまま動かす事ができます。
-(ヘッダファイルとM5.begin関数を変えればおそらく他ボードでも使えるかと思います。)
+(ヘッダファイルとM5.begin関数を変えればM5Atom liteやM5StickCなどの他ボードでも使えるかと思います。)
 
 本プログラムは下記のライブラリを使用します。
 - M5StickCPlus バージョン0.0.2にて確認
@@ -18,6 +18,9 @@ https://monomonotech.jp/kurage/webbluetooth/getting_started.html
 # 組み立て方
 はんだ付けやCAUL車体への加工は基本的に必要ありません。
 M5StickCPlusのIR送信部の光がCAUL車体のIR受光部に当たるようにM5StickCPlusを置き、マスキングテープなどで固定してください。
+
+<img src="https://github.com/henjin0/BLE_CAUL/blob/main/image/back.jpg?raw=true" width="300"> <img src="https://github.com/henjin0/BLE_CAUL/blob/main/image/front.jpg?raw=true" width="300">
+
 
 # LICENSE
 Please see [LICENSE](LICENSE).
